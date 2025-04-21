@@ -1,0 +1,69 @@
+HELP.md
+# Maven specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+
+# Spring Boot specific
+*.war
+*.jar
+BOOT-INF/
+META-INF/
+*.ear
+
+# Log files
+*.log
+*.out
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Environment files
+*.env
+*.sh
+
+# Lombok generated files
+.lombok/
+
+# Test reports
+test-output/
+
+# Database files
+*.h2.db
+*.mv.db
+*.sqlite
+*.db
